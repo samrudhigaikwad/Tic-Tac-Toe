@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    margin-top: 20px;
+    color: white;
+}
+body{
+    text-align: center;
+    /* background-color: teal; */
+    /* background-color: #045370; */
+    background: #C33764;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    height: 70vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 1.5vmin;
+    justify-content: center;
+    align-items: center;
+}
+#newbtn{
+    height: 7vmin;
+    width: 25vmin;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.607);
+    color: white;
+}
+.box{
+    color: rgba(255, 255, 255, 0.774);
+    height: 18vmin;
+    width: 18vmin;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px white;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgb(53, 21, 21);
+    font-size: 10vmin;
+    font-weight:bold;
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+}
+#reset{
+    height: 7vmin;
+    width: 25vmin;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.607);
+    color: white;
+}
+#msg{
+    font-size:xx-large;
+    font-weight: bold;
+    color: rgb(28, 210, 28);
+}
+.msg-container{
+    height: 20vmin;
+    justify-content:space-evenly;
+}
+.hide{
+    display: none;
+}
+.colorO{
+    color: #d7448b;
+}
+.colorX{
+    color: rgb(80, 16, 120);
+
+}
